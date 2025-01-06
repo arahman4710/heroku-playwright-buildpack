@@ -102,7 +102,7 @@ EOF
 		error "Could not install dependencies"
 	fi
         echo "HERE"
-	mv $build_tmpdir/.apt $BUILD_DIR
+	mv -f $build_tmpdir/.apt $BUILD_DIR
         echo "HERE2"
 	# mv file in case user is using .profile.d
 	mkdir -p $BUILD_DIR/.profile.d/
