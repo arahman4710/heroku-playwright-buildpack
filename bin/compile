@@ -101,7 +101,7 @@ EOF
 		rm -rf $buildpack_tmpdir $build_tmpdir $cache_tmpdir
 		error "Could not install dependencies"
 	fi
-        echo "1HERE"
+        echo "2HERE"
 	# mv $build_tmpdir/.apt $BUILD_DIR
         echo "1HERE2"
 	# mv file in case user is using .profile.d
