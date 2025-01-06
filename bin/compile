@@ -108,7 +108,7 @@ EOF
 	mkdir -p $BUILD_DIR/.profile.d/
         echo "1HERE3"
 	mv $build_tmpdir/.profile.d/000_apt.sh $BUILD_DIR/.profile.d/
-        sudo apt-get install libatk1.0-0 libatk-bridge2.0-0 libdrm2 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libxkbcommon0 libasound2 libatspi2.0-0 
+        #sudo apt-get install libatk1.0-0 libatk-bridge2.0-0 libdrm2 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libxkbcommon0 libasound2 libatspi2.0-0 
         echo "1HERE4"	
 
 	rm -rf $buildpack_tmpdir $build_tmpdir $cache_tmpdir
